@@ -1,17 +1,40 @@
 body {
   margin: 0;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 * {
   box-sizing: border-box;
 }
-@media (max-width:700px) {
+.grid-example {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-example > div {
+  flex: 25%;
+  padding: .5rem;
+}
+/* @media (max-width: 700px) {
   body {
     background-color: blue;
   }
 }
-@media (min-width:900px) {
+@media (min-width: 900px) {
   body {
     background-color: green;
+  }
+} */
+
+
+@media (max-width: 900px) {
+  .grid-example > div {
+    flex: 0 0 33.33333333%;
+}
+@media (min-width: 750px) {
+  .grid-example > div {
+    flex: 0 0 50%;
+}
+@media (min-width: 600px) {
+  .grid-example > div {
+    flex: 0 0 100%;
   }
 }
