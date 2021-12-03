@@ -19,24 +19,42 @@ img {
 }
 p {
   padding: 5px;
+  font-size: 1.3rem;
 }
 @media (max-width: 900px) {
-  img {
+   article  img {
     width: 300px;
   }
 }
 @media (max-width: 750px) {
-  img {
+  article  img {
     width: 250px;
   }
 }
 
 @media (max-width: 600px) {
-  img {
+  article img {
     width: 100%;
   }
 }
 
+
+@media (max-width: 900px) {
+  article p {
+    font-size: 1.2rem;
+ }
+}
+@media (max-width: 750px) {
+ article p {
+  font-size: 1.1rem;
+ }
+}
+
+@media (max-width: 600px) {
+  article p {
+    font-size: 1rem;
+  }
+}
 
 
 
