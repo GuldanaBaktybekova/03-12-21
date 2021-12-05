@@ -116,7 +116,25 @@ img {
    color: #fff;
    font-weight: 600;
 }
-@media 
+.last {
+  color: #6f42c1;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+}
+
+
+@media (max-width:500px) {
+  ul, a {
+    display: none;
+  }
+  .last {
+    padding: 5px;
+    font-size: 18px;
+    color: rgba(255,255,255,0.85);
+  }
+}
 
 
 
