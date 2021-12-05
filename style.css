@@ -59,7 +59,9 @@ img {
 
 
 
-
+.navbar {
+  background-color: #6f42c1;
+}
 .navbar ul {
   display: flex;
   list-style-type: none;
@@ -75,6 +77,7 @@ img {
 
 .icon-white {
   color: white;
+
 }
 
 
