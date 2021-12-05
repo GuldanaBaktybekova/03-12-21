@@ -60,7 +60,22 @@ img {
 
 
 
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar li {
+  padding: 10px;
+}
 
+.flex {
+  display: flex;
+  flex-grow: 1;
+}
+
+.icon-white {
+  color: white;
+}
 
 
 
